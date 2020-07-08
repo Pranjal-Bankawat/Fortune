@@ -1,0 +1,175 @@
+.NavBar{
+    text-align: center;
+    font-family: 'Montserrat' , sans-serif;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.Logo{
+    width: 150px;
+    margin: 20px 0 30px 0;
+}
+
+.NavLinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+.LeftLinks,
+.RightLinks{
+    display: flex;
+    justify-content: space-between;
+}
+
+.LeftLink,
+.RightLink{
+    position: relative;
+    background-color: #fff;
+}
+
+.LeftLink{
+    padding: 0 15px 15px 15px;
+    border-bottom: 2px solid transparent;
+    color: black;
+    font-size: 16px;
+    transition: border 0.2s, color 0.2s;
+    cursor: pointer;
+}
+
+.LeftLink:hover{
+    color: #086972;
+    border-bottom: 2px solid #086972;
+    
+}
+
+.ActiveLink{
+    color: #086972 !important;
+}
+
+.LeftLink a,
+.RightLink a{
+    text-decoration: none;
+    font-weight: 600;
+    color: inherit;
+}
+
+.RightLink{
+    padding: 0 15px 10px 15px;
+    height: 100%;
+}
+
+.RightLink:hover{
+    color: #086972;
+}
+
+.RightLink img{
+    width: 20px;
+    height: 20px;
+}
+
+.CartIcon{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.CartItemNumber{
+    display: inline-block;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    background-color: #086972;
+    color: white;
+    font-size: 12px;
+}
+
+.Dropdown{
+    position: absolute;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 15px;
+    visibility: hidden;
+    padding: 15px;
+    width: 1000px;
+    /* box-shadow: 5px 5px 5px #ccc; */
+    border: 1px solid #086972;
+    border-top: 1px solid transparent;
+    left: 0;
+    opacity: 0;
+    transform: translateY(20%);
+    transition: opacity 0.2s, visibility 0.2s , transform 0.5s;
+    z-index: 5;
+}
+
+.RightLink .Dropdown{
+    right: 0;
+    left: unset;
+    width: 300px;
+}
+
+.LeftLink:hover .Dropdown,
+.RightLink:hover .Dropdown{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0%);
+}
+
+.HomeAndLivingDropdown{
+    left: -30%;
+}
+
+.EssentialsDropdown{
+    width: 300px;
+}
+
+/*Profile Optiions*/
+
+.OptionsDropdown{
+    width: 100%;
+    text-align: left;
+}
+
+.OptionsDropdown span{
+    font-size: 18px;
+    padding: 15px;
+    display: inline-block;
+    border: 1px solid #086972;
+}
+
+.OptionsDropdown span a{
+    text-decoration: none;
+    color: #086972;
+}
+
+.OptionsDropdown p:first-of-type::before{
+    display: block;
+    border-bottom: 1px solid #000;
+    content: '';
+    margin: 20px 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+.OptionsDropdown p{
+    margin: 10px 0;
+    color: #000;
+}
+
+.CartDropdown{
+    width: 95%;
+}
+
+.CartDropdown h1{
+    width: 100%;
+    display: block;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #000;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}

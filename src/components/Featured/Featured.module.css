@@ -1,0 +1,68 @@
+.BestSeller,
+.BestSellerNav,
+.BestSellerNavLinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: inherit;
+}
+
+.BestSeller{
+    width: 95%;
+    margin: 50px auto;
+    height: 450px;
+}
+
+.BestSellerBaner{
+    height: 450px;
+    width: 250px;
+}
+
+.BestSellerBaner img{
+    height: 100%;
+    width: 100%;
+}
+
+.BestSellerProducts{
+    height: 100%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.BestSellerNav{
+    width: 100%;
+}
+
+.BestSellerNavLinks{
+    list-style: none;
+}
+
+.Link{
+    padding: 10px;
+    font-weight: 600;
+    border-bottom: 1px solid transparent;
+    color: #000;
+    transition: color 0.2s, border 0.2s;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.Link:hover{
+    color: #086972;
+    border-bottom: 1px solid #086972;
+}
+
+.Link:first-child{
+    color: #086972;
+    border-bottom: 1px solid #086972;
+}
+
+.ProductCards{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 80%;
+}

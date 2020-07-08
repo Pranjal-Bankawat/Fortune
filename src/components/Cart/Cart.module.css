@@ -1,0 +1,67 @@
+.Cart{
+    width: 95%;
+    font-family: inherit;
+    margin: 50px auto;
+}
+
+.CartTitle{
+    display: block;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #086972;
+}
+
+.CartTable{
+    display: block;
+    margin: 60px auto;
+    width: 95%;
+    text-align: right;
+}
+
+.CartTableTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    padding: 20px 0;
+}
+
+.CartTableTitle p{
+    width: 15%;
+    display: block;
+    font-weight: 600;
+    text-align: center;
+    color: #444;
+}
+
+.CartTableTitle p:first-of-type{
+    width: 40%;
+}
+
+.CheckoutBTN{
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #086972;
+    color: white;
+    font-weight: 600;
+    border-style: unset;
+    outline: none;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.CheckoutDetails{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: 25px;
+}
+
+.CheckoutDetails p{
+    font-size: 20px;
+    font-weight: 700;
+    width: 15%;
+    text-align: center;
+    color: #444;
+}

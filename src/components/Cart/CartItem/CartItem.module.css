@@ -1,0 +1,43 @@
+.CartItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-family: inherit;
+    padding: 25px 0;
+    border-bottom: 1px double rgb(214, 214, 214);
+}
+
+.ProductGroupDetails{
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ProductGroupDetails img{
+    width: 60px;
+    height: 80px;
+}
+
+.ProductPrice,
+.ProductQuantity,
+.ProductTotalPrice,
+.ProductRemove{
+    display: block;
+    width: 15%;
+    text-align: center;
+}
+
+.ProductQuantity input{
+    text-align: center;
+    width: 45px;
+    height: 30px;
+    outline: none;
+}
+
+.ProductRemove img{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}

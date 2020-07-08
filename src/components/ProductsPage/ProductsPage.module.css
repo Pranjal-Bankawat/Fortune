@@ -1,0 +1,68 @@
+.ProductsPage{
+    width: 95%;
+    font-family: inherit;
+    margin: 25px auto;
+}
+
+.ProductsPageHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(228, 228, 228);
+}
+
+.ProductsPageHeader h1,
+.ProductsPageHeader span{
+    padding-bottom: 15px;
+}
+
+.ProductsPageHeader span select{
+    margin: 0 10px;
+    outline: none;
+}
+
+.ProductsPageHeader h1{
+    border-bottom: 2px solid #086972;
+}
+
+.ProductsPageContent{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.ProductsPageFilters{
+    width: 20%;
+    border-right: 1px solid #999;
+    padding-top: 20px;
+}
+
+.Filter{
+    margin-bottom: 25px;
+}
+
+.Filter p{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.Filter span{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.Filter input{
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.Products{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

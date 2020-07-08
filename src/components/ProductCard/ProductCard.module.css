@@ -1,0 +1,106 @@
+.ProductCard{
+    width: 21%;
+    height: 100%;
+    text-align: center;
+    font-family: inherit;
+    box-shadow: 2px 2px 2px rgb(230, 230, 230);
+    margin: 25px 0;
+}
+
+.ProductImage{
+    height: 70%;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.ProductImage img{
+    height: 100%;
+    width: 100%;
+}
+
+.ProductImage:hover .AddToCart,
+.ProductImage:hover .AddToWishlist,
+.ProductImage:hover .QuickView{
+    visibility: visible;
+    opacity: 1;
+}
+
+.ProductImage:hover .AddToCart{
+    transform: translateY(0);
+}
+
+.ProductImage:hover .AddToWishlist,
+.ProductImage:hover .QuickView{
+    transform: translate(-50%,-50%);
+}
+
+.AddToCart,
+.AddToWishlist,
+.QuickView{
+    position: absolute;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.2s;
+    background: #086972;
+}
+
+.AddToCart{
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-weight: 600;
+    color: white;
+    font-size: 12px;
+    transform: translateY(100%);
+}
+
+.AddToWishlist,
+.QuickView{
+    display: block;
+    height: 35px;
+    width: 35px;
+    padding: 5px;
+    color: white;
+    bottom: 15%;
+    transform: translate(-50%,0);
+}
+
+.AddToWishlist{
+    left: 65%;
+}
+
+.QuickView{
+    left: 35%;
+}
+
+.AddToWishlist img,
+.QuickView img{
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+
+.ProductDetails{
+    margin-top: 20px;
+}
+
+.ProductTitle{
+    margin-bottom: 5px;
+}
+
+.ProductTitle,
+.ProductPrice{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.ProductRating{
+    width: 120px;
+    margin-bottom: 5px;
+}

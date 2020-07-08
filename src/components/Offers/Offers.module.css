@@ -1,0 +1,74 @@
+.Offers{
+    width: 95%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: inherit;
+    color: white;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.85),rgba(255, 255, 255, 0.85)),url('../../assets/images/3237148.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.Offer{
+    width: 25%;
+    height: 500px;
+}
+
+.OfferImage{
+    height: 50%;
+    width: 100%;
+    display: block;
+}
+
+.OfferImage img{
+    width: 100%;
+    height: 100%;
+}
+
+.OfferContent{
+    height: 50%;
+    background-color: #086972;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title2{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.OfferCTABtn{
+    color: #086972;
+    display: block;
+    padding: 10px;
+    border: 2px solid transparent;
+    background: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s;
+    margin-top: 20px;
+}
+
+.Offer:nth-of-type(2) .OfferContent{
+    background: #17B978;
+}
+
+.Offer:nth-of-type(2) .OfferCTABtn{
+    color: #17B978;
+}
+
+.Offer:nth-of-type(2) .OfferCTABtn:hover{
+    color: white;
+}
+
+.OfferCTABtn:hover{
+    color: white;
+    border: 2px solid #fff;
+    background: transparent;
+}

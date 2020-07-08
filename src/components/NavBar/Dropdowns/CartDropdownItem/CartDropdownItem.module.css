@@ -1,0 +1,28 @@
+.CartDropdownItem{
+    display: flex;
+    align-items: flex-start;
+    height: 60px;
+    width: 100%;
+    justify-content: space-between;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.ItemImage{
+    height: 100% !important;
+    width: 50px !important;
+}
+
+.ItemRemove{
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+}
+
+.ItemTitle{
+    margin-bottom: 5px;
+}
+
+.ItemDesc{
+    font-size: 12px;
+}

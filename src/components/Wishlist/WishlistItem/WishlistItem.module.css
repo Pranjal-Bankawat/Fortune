@@ -1,0 +1,60 @@
+.WishlistItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-family: inherit;
+    padding: 25px 0;
+    border-bottom: 1px double rgb(214, 214, 214);
+}
+
+.ProductGroupDetails{
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ProductGroupDetails img{
+    width: 60px;
+    height: 80px;
+}
+
+.ProductPrice,
+.ProductQuantity,
+.AddToCartBtn,
+.ProductRemove{
+    display: block;
+    width: 15%;
+    text-align: center;
+}
+
+.ProductQuantity input{
+    text-align: center;
+    width: 45px;
+    height: 30px;
+    outline: none;
+}
+
+.ProductRemove img{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.AddToCartBtn button{
+    padding: 15px;
+    background-color: #fff;
+    color: #086972;
+    font-weight: 600;
+    border-style: unset;
+    border: 2px solid #086972;
+    outline: none;
+    border-radius: 5px;
+    transition: all 0.2s;
+}
+
+.AddToCartBtn button:hover{
+    background-color: #086972;
+    color: #fff;
+}
